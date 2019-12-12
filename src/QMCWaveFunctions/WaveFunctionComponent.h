@@ -570,7 +570,7 @@ struct WaveFunctionComponent : public QMCTraits
     }
   }
 
-  /** Calculates the derivatives of \f$ \grad(\textrm{log}(\psif)) \f$ with respect to
+  /** Calculates the derivatives of \f$ \grad(\textrm{log}(\psif)) $\f with respect to
       the optimizable parameters, and the dot product of this is then
       performed with the passed-in G_in gradient vector. This object is then
       returned as dgradlogpsi.
